@@ -1,0 +1,38 @@
+* {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #581663 url(img/background.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 30vh;
+}
+
+.logo img {
+  width: 300px;
+}
+
+h1 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(img/aggro-name.svg) center center no-repeat;
+  height: 50px;
+}
+
+h3 {
+  margin: 2em 0 1em;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    margin-top: 20vh;
+  }
+}
